@@ -17,6 +17,8 @@ logs/*
 *.out
 #pyenv
 .python-version
-Dockerfile
-app/certs/*
-app/conf/mail.properties
+app/certs/*.key
+app/certs/*.pem
+add/certs/*.crt
+data/*
+
