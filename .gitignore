@@ -1,0 +1,22 @@
+.dockerignore
+.env*
+.DS_Store
+# Ignore python object files
+*.py[cod]
+*.sublime-workspace
+# VIm
+*.sw[po]
+# EMACs
+~
+# IntelliJ IDEA
+.idea/*
+*.iml
+# Ansible specific
+*.retry
+logs/*
+*.out
+#pyenv
+.python-version
+Dockerfile
+app/certs/*
+app/conf/mail.properties
