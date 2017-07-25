@@ -7,7 +7,7 @@ RUN apk update --no-cache --allow-untrusted && apk upgrade --no-cache --allow-un
 
 WORKDIR /app
 
-ENV BLYNK_SERVER_RELEASE 0.22.0
+ENV BLYNK_SERVER_RELEASE 0.25.4
 RUN curl -L "https://github.com/blynkkk/blynk-server/releases/download/v${BLYNK_SERVER_RELEASE}/server-${BLYNK_SERVER_RELEASE}.jar" > /app/server.jar
 
 # Download latest version from github
